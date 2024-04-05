@@ -14,7 +14,7 @@ set id=%%x
 ping 127.0.0.1 -n 6 > nul
 cls
 echo Downloading...
-set "link=https://drive.google.com/uc?id=!id!&export=download&confirm=t&uuid=ed18c6fc-1190-11ed-861d-0242ac120002"
+set "link=https://drive.google.com/uc?id=!id!"
 curl -O %link%
 cls
 echo Download Completed.
